@@ -1,6 +1,6 @@
 {
   "name": "charonlab/testing",
-  "description": "Testing utilities for charonlab.",
+  "description": "Testing utilities for charonlab packages.",
   "license": "MIT",
   "type": "library",
   "require": {
@@ -10,5 +10,12 @@
   },
   "autoload": {
     "Charon\\Testing\\": "src/"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "platform": {
+      "php": "8.2.16"
+    },
+    "sort-packages": true
   }
 }
